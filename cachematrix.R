@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The function is to cache the inverse of matrix.If contents of matrix are not changing, the function will cache the inverse of the matrix.
+## So it not need to compute agin, it will search in the cache function and return the store inverse matrix. 
 
-## The function of mkeCacheMatrix creates a special "matrix" object that can cache its inverse
+## The function of makeCacheMatrix creates a special "matrix" object that can cache its inverse
 #1. Set the value of the matrix
 #2. Get the value of the matrix
 #3. Set the value of the inverse
