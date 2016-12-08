@@ -39,6 +39,8 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inver)
   inver
 }
+
+#Test example
 x<-makeCacheMatrix(matrix(c(1,-1,-3,4),nrow=2,ncol=2))
 cacheSolve(x)
 cacheSolve(x)
